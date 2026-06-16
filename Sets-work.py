@@ -7,6 +7,6 @@ if limit > 0 :
         phrase = input("Enter a letter to remove \n")
         a.discard(phrase)
         count += 1
+    print(f"Your set is: \n {a}")
 else :
     print("Enter a correct limit")
-print(f"Your set is: \n {a}")
