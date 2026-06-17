@@ -1,5 +1,5 @@
 sentence = input("Enter a sentence: \n")
 wordcount = sentence.split(" ")
-print("The number of words are", len(wordcount))
+print(f"The number of words are {len(wordcount)}")
 lettera = sentence.lower().count("a")
-print("There are", lettera, "letter a")
+print(f"There are {lettera} letter a")
