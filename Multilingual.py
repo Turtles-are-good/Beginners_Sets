@@ -13,7 +13,7 @@ for i in range( 1, people + 1) :
         every = lanlan
     else :
         every = every.intersection(lanlan)
-print(f"The number of languages everyone can speak together is {len(every)}")
+print(f"\n The number of languages everyone can speak together is {len(every)}")
 print(f"The languages every one can speak is {every}")
-print(f"Total languages spoke in the group is {len(lan)}")
+print(f"Total languages spoken in the group is {len(lan)}")
 print(f"Languages spoken {lan}")
